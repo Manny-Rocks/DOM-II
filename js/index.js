@@ -27,3 +27,6 @@ window.addEventListener(`load`, e=>{alert(`PLEASE KEEP WHATEVER YOU SEE CONFIDEN
 //everytime you try to copy anything off of the page, eventlistener will activate a new window which tells u whatever u wanted it to.
 const copyStuff=document.querySelector(`body`);
 copyStuff.addEventListener(`copy`, e=>{alert('MAKE YOUR OWN!...THI IS MINES!')});
+
+//everytime we scroll, eventlistener will count number of times I was scrolled.
+window.addEventListener(`scroll`, e =>{console.log(` I WAS SCROLLED!`)});
