@@ -22,4 +22,8 @@ navAgain[2].addEventListener(`mouseout`, e => {navAgain[2].style.color=`green`})
 navAgain[3].addEventListener(`mouseout`, e => {navAgain[3].style.color=`orange`});
 
 //everytime you open the webpage, the eventlistener should load a second window containing whatever u assigned the window to contain.
-window.addEventListener(`load`, e=>{alert(`PLEASE KEEP WHATEVER YOU SEE CONFIDENTIAL!`)});
+window.addEventListener(`load`, e=>{alert(`PLEASE KEEP WHATEVER YOU SEE CONFIDENTIAL!`)});  
+
+//everytime you try to copy anything off of the page, eventlistener will activate a new window which tells u whatever u wanted it to.
+const copyStuff=document.querySelector(`body`);
+copyStuff.addEventListener(`copy`, e=>{alert('MAKE YOUR OWN!...THI IS MINES!')});
