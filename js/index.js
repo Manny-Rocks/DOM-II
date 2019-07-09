@@ -30,3 +30,7 @@ copyStuff.addEventListener(`copy`, e=>{alert('MAKE YOUR OWN!...THI IS MINES!')})
 
 //everytime we scroll, eventlistener will count number of times I was scrolled.
 window.addEventListener(`scroll`, e =>{console.log(` I WAS SCROLLED!`)});
+
+//everytime u press a key on the keyborad, eventlistener will track and open an alert window...
+const keyPress=document.querySelector(`body`);
+keyPress.addEventListener(`keypress`, e=> {alert("ARE YOU HAVING FUN?")});
