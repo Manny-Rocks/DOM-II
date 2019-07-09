@@ -7,4 +7,10 @@ console.log(`HAHAAA UR RIDING THE FUN BUS!`)
 const changeHeading=document.querySelector(`.logo-heading`);
 changeHeading.addEventListener(`dblclick`, e=>{changeHeading.style.fontFamily=`Amatic SC`, `cursive`});
 
+//everytime the mouse moves over the anchor tag, the event listener will activate the assigned color
+const navItmes=document.querySelectorAll(`nav a`);
+navItmes[0].addEventListener(`mouseover`, e => {navItmes[0].style.color=`red`});
+navItmes[1].addEventListener(`mouseover`, e => {navItmes[1].style.color=`blue`});
+navItmes[2].addEventListener(`mouseover`, e => {navItmes[2].style.color=`red`});
+navItmes[3].addEventListener(`mouseover`, e => {navItmes[3].style.color=`blue`});
 
