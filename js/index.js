@@ -14,3 +14,9 @@ navItmes[1].addEventListener(`mouseover`, e => {navItmes[1].style.color=`blue`})
 navItmes[2].addEventListener(`mouseover`, e => {navItmes[2].style.color=`red`});
 navItmes[3].addEventListener(`mouseover`, e => {navItmes[3].style.color=`blue`});
 
+//everytime the mouse leaves the nav anchor tag, the color will be set to blah blah blah.
+const navAgain=document.querySelectorAll(`nav a`);
+navAgain[0].addEventListener(`mouseout`, e => {navAgain[0].style.color=`green`});
+navAgain[1].addEventListener(`mouseout`, e => {navAgain[1].style.color=`orange`});
+navAgain[2].addEventListener(`mouseout`, e => {navAgain[2].style.color=`green`});
+navAgain[3].addEventListener(`mouseout`, e => {navAgain[3].style.color=`orange`});
