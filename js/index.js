@@ -20,3 +20,6 @@ navAgain[0].addEventListener(`mouseout`, e => {navAgain[0].style.color=`green`})
 navAgain[1].addEventListener(`mouseout`, e => {navAgain[1].style.color=`orange`});
 navAgain[2].addEventListener(`mouseout`, e => {navAgain[2].style.color=`green`});
 navAgain[3].addEventListener(`mouseout`, e => {navAgain[3].style.color=`orange`});
+
+//everytime you open the webpage, the eventlistener should load a second window containing whatever u assigned the window to contain.
+window.addEventListener(`load`, e=>{alert(`PLEASE KEEP WHATEVER YOU SEE CONFIDENTIAL!`)});
