@@ -34,3 +34,8 @@ window.addEventListener(`scroll`, e =>{console.log(` I WAS SCROLLED!`)});
 //everytime u press a key on the keyborad, eventlistener will track and open an alert window...
 const keyPress=document.querySelector(`body`);
 keyPress.addEventListener(`keypress`, e=> {alert("ARE YOU HAVING FUN?")});
+
+const btnC = document.querySelector(`.destination .btn`);
+btnC.addEventListener('click', e => {
+ console.log("I was freaking clicked, once I think....headscratch!!!")
+});
